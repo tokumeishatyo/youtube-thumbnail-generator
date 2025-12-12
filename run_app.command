@@ -15,8 +15,8 @@ source .venv/bin/activate
 
 # Install dependencies
 echo "Installing dependencies..."
-pip install -r app/requirements.txt --quiet
+.venv/bin/pip install -r app/requirements.txt --quiet
 
 # Run the app
 echo "Starting YouTubeサムネイル生成ツール..."
-python3 app/main.py
+.venv/bin/python app/main.py
